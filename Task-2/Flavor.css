@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'poppins',sans-serif;
+}
+
+.kiwi{
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("image/kiwibg.jpg"); /* Use forward slash */
+    filter: brightness(0.9);
+}
+
+
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 100px;
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+}
+header .logo {
+    max-width: 80px;  
+}
+
+#blobSvg{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    filter:none;
+}
+
+h2{
+    margin-left: 5%;
+    margin-bottom:15%;
+    color: #000000;
+    font-size: 2.0em;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+.ras {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("image/raspbg.jpg");
+    filter: brightness(0.9);
+}
+
+
